@@ -23,12 +23,16 @@ After completing the assignment, answer the following reflection questions:
 
 1. How do the performance and efficiency of the Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms compare when solving Sudoku puzzles? In what scenarios might one approach be preferable over the other?
 
-
+DFS is less effcient than BFS because it takes alot more iterations to solve the sudoku board. DFS is more likely to start off wrong which also makes it have to go through more iterations than BFS. Since BFS considers the neighbors first it's not suitable for decsion making trees in puzzes. BFS is more suitable for puzzles because its technique is more efficent.
+Use BFS for searching vertices closer to given source while DFS is better for when the solution is away from the source.
 
 2. How did the choice of data structures (like the Stack for DFS and Queue for BFS) impact the implementation and functionality of the algorithms? Are there alternative data structures or design patterns that could have been used to achieve the same objectives?
 
+The choice of using Stacks for DFS and Queues for BFS 
+You can use an array, linked list, and deque. A deque is an ordered collection of items similiar  to the queue. An array is a linear data structure that collects elements of the same data type and stores in contingous memory location. A linked list is a collection of nodes that contain data. 
 
 
 3. Considering the current implementation, how might the Sudoku solver be adapted or extended for larger puzzles or different types of grid-based logic games? How can the lessons learned from this assignment be applied to real-world problem-solving or optimization challenges?
 
+You would first have to extend the size of the board. 
 
