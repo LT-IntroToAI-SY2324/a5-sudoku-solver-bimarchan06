@@ -28,11 +28,10 @@ Use BFS for searching vertices closer to given source while DFS is better for wh
 
 2. How did the choice of data structures (like the Stack for DFS and Queue for BFS) impact the implementation and functionality of the algorithms? Are there alternative data structures or design patterns that could have been used to achieve the same objectives?
 
-The choice of using Stacks for DFS and Queues for BFS 
-You can use an array, linked list, and deque. A deque is an ordered collection of items similiar  to the queue. An array is a linear data structure that collects elements of the same data type and stores in contingous memory location. A linked list is a collection of nodes that contain data. 
+The choice of using Stacks for DFS and Queues for BFS was for efficency. BFS is ale to scan through the scenrios and eliminate scenrios when needed while DFS scans through data all the way through. You can use an array, linked list, and deque. A deque is an ordered collection of items similiar  to the queue. An array is a linear data structure that collects elements of the same data type and stores in contingous memory location. A linked list is a collection of nodes that contain data. 
 
 
 3. Considering the current implementation, how might the Sudoku solver be adapted or extended for larger puzzles or different types of grid-based logic games? How can the lessons learned from this assignment be applied to real-world problem-solving or optimization challenges?
 
-You would first have to extend the size of the board. 
+You would first have to extend the size of the board to be used for bigger boards.This can be adapted to to solve other logic puzzles when given a data set. We can use this to solve problems of sorting people into groups, sorting markets or goods.
 
